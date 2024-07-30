@@ -1,0 +1,20 @@
+.imgs {
+    position: absolute;
+    bottom: 250px; /* Adjust the value to position the image 700px above the input bar */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  .imgs svg {
+    width: 100%;
+    height: 30%;
+  }
+
+  /* Media query for smaller screens */
+@media (max-width: 768px) {
+  .imgs {
+    width: 300px; /* Adjust this value as needed */
+  }
+}

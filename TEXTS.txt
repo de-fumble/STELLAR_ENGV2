@@ -1,0 +1,101 @@
+[08:41:22.920] Running build in Washington, D.C., USA (East) – iad1
+[08:41:23.106] Cloning github.com/de-fumble/morphic-ai-answer-engine-generative-ui (Branch: main, Commit: 40dc862)
+[08:41:24.973] Previous build cache not available
+[08:41:25.216] Cloning completed: 2.107s
+[08:41:26.239] Running "vercel build"
+[08:41:27.819] Vercel CLI 35.2.1
+[08:41:28.184] Installing dependencies...
+[08:41:28.224] bun install v1.1.20 (ae194892)
+[08:41:30.444] 
+[08:41:30.445] + @types/node@20.14.10
+[08:41:30.445] + @types/react@18.3.3
+[08:41:30.445] + @types/react-dom@18.3.0
+[08:41:30.445] + eslint@8.57.0
+[08:41:30.445] + eslint-config-next@14.2.5
+[08:41:30.445] + postcss@8.4.39
+[08:41:30.445] + tailwindcss@3.4.4
+[08:41:30.445] + typescript@5.5.3
+[08:41:30.445] + @ai-sdk/anthropic@0.0.21
+[08:41:30.445] + @ai-sdk/google@0.0.22
+[08:41:30.445] + @ai-sdk/openai@0.0.31
+[08:41:30.445] + @radix-ui/react-alert-dialog@1.1.1
+[08:41:30.446] + @radix-ui/react-avatar@1.1.0
+[08:41:30.446] + @radix-ui/react-checkbox@1.1.1
+[08:41:30.446] + @radix-ui/react-collapsible@1.1.0
+[08:41:30.446] + @radix-ui/react-dialog@1.1.1
+[08:41:30.446] + @radix-ui/react-dropdown-menu@2.1.1
+[08:41:30.446] + @radix-ui/react-label@2.1.0
+[08:41:30.446] + @radix-ui/react-separator@1.1.0
+[08:41:30.446] + @radix-ui/react-slider@1.2.0
+[08:41:30.446] + @radix-ui/react-slot@1.1.0
+[08:41:30.446] + @radix-ui/react-switch@1.1.0
+[08:41:30.446] + @radix-ui/react-tooltip@1.1.2
+[08:41:30.446] + @tailwindcss/typography@0.5.13
+[08:41:30.446] + @upstash/redis@1.32.0
+[08:41:30.446] + ai@3.2.22
+[08:41:30.446] + class-variance-authority@0.7.0
+[08:41:30.446] + clsx@2.1.1
+[08:41:30.446] + embla-carousel-react@8.1.6
+[08:41:30.446] + exa-js@1.0.12
+[08:41:30.446] + katex@0.16.11
+[08:41:30.446] + lucide-react@0.363.0
+[08:41:30.446] + next@14.2.5
+[08:41:30.447] + next-themes@0.3.0
+[08:41:30.447] + ollama-ai-provider@0.7.0
+[08:41:30.447] + react-dom@18.3.1
+[08:41:30.447] + react-icons@5.2.1
+[08:41:30.447] + react-markdown@9.0.1
+[08:41:30.447] + react-textarea-autosize@8.5.3
+[08:41:30.447] + rehype-external-links@3.0.0
+[08:41:30.447] + rehype-katex@7.0.0
+[08:41:30.447] + remark-gfm@4.0.0
+[08:41:30.447] + remark-math@6.0.0
+[08:41:30.447] + sonner@1.5.0
+[08:41:30.447] + tailwind-merge@2.4.0
+[08:41:30.447] + tailwindcss-animate@1.0.7
+[08:41:30.447] + zod@3.23.8
+[08:41:30.447] 
+[08:41:30.448] 607 packages installed [2.24s]
+[08:41:30.481] Detected Next.js version: 14.2.5
+[08:41:30.485] Running "bun run build"
+[08:41:30.491] $ next build
+[08:41:31.132] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[08:41:31.132] This information is used to shape Next.js' roadmap and prioritize features.
+[08:41:31.132] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[08:41:31.133] https://nextjs.org/telemetry
+[08:41:31.133] 
+[08:41:31.196]   ▲ Next.js 14.2.5
+[08:41:31.196] 
+[08:41:31.274]    Creating an optimized production build ...
+[08:41:54.552]  ✓ Compiled successfully
+[08:41:54.553]    Linting and checking validity of types ...
+[08:42:01.104]    Collecting page data ...
+[08:42:01.732] Error: [Upstash Redis] The 'url' property is missing or undefined in your Redis config.
+[08:42:01.732]     at new e (/vercel/path0/.next/server/chunks/782.js:86:48133)
+[08:42:01.732]     at 650 (/vercel/path0/.next/server/chunks/397.js:1:21657)
+[08:42:01.733]     at t (/vercel/path0/.next/server/webpack-runtime.js:1:128)
+[08:42:01.733]     at 4732 (/vercel/path0/.next/server/app/share/[id]/page.js:1:5093)
+[08:42:01.733]     at t (/vercel/path0/.next/server/webpack-runtime.js:1:128)
+[08:42:01.733]     at 467 (/vercel/path0/.next/server/app/share/[id]/page.js:1:1557)
+[08:42:01.733]     at t (/vercel/path0/.next/server/webpack-runtime.js:1:128)
+[08:42:01.733]     at a (/vercel/path0/.next/server/app/share/[id]/page.js:1:5545)
+[08:42:01.733]     at /vercel/path0/.next/server/app/share/[id]/page.js:1:5588
+[08:42:01.733]     at t.X (/vercel/path0/.next/server/webpack-runtime.js:1:1206)
+[08:42:01.735] 
+[08:42:01.736] > Build error occurred
+[08:42:01.738] Error: Failed to collect page data for /share/[id]
+[08:42:01.738]     at /vercel/path0/node_modules/next/dist/build/utils.js:1268:15
+[08:42:01.738]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+[08:42:01.738]   type: 'Error'
+[08:42:01.738] }
+[08:42:01.765] error: script "build" exited with code 1
+[08:42:01.776] Error: Command "bun run build" exited with 1
+[08:42:02.244] 
+
+57681928-b347-462b-b098-ff4dffd30804
+AIzaSyByquHUL-FbXrg2Dz7aJaWgpIAqAPWRSGg
+AIzaSyCjsSWUp2XEqsjReofpOHss5h0AXB3QaoU
+
+
+cid oauth- 210541172366-26l4esarga9bpffp9i8i7evc2s5pvcu5.apps.googleusercontent.com
+oauth secret- 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
