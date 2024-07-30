@@ -127,7 +127,7 @@ export function ChatPanel({ messages, query }: ChatPanelProps) {
 
     </div>
      
-      <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6 mb-[-230]">
+      <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6 mb-[-530]">
         <div className="relative flex items-center w-full">
           <Textarea
             ref={inputRef}
