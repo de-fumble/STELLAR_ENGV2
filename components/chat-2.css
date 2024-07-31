@@ -18,3 +18,11 @@
     width: 300px; /* Adjust this value as needed */
   }
 }
+
+
+/* Media query for larger screens (above 768px) */
+@media (min-width: 769px) {
+  .imgs {
+    display: none; /* Hide the image on larger screens */
+  }
+}
