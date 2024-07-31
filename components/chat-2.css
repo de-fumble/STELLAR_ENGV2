@@ -1,6 +1,6 @@
 .imgs {
     position: absolute;
-    bottom: 550px; /* Adjust the value to position the image 700px above the input bar */
+    bottom: 350px; /* Adjust the value to position the image 700px above the input bar */
     left: 50%;
     transform: translateX(-50%);
     width: 400px; /* Adjust the width as needed */
